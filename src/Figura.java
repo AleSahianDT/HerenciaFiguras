@@ -3,7 +3,7 @@ import java.util.List;
 
 public class Figura {
 
-    double perimetro, area;
+    double perimetro, area, volumen;
     List<Punto> listaPuntos = new ArrayList<>();
 
     public Figura() {
@@ -47,6 +47,14 @@ public class Figura {
 
     public void setArea(double area) {
         this.area = area;
+    }
+
+    public double getVolumen() {
+        return volumen;
+    }
+
+    public void setVolumen(double volumen) {
+        this.volumen = volumen;
     }
 
     public List<Punto> getListaPuntos() {
